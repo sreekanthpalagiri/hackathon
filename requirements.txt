@@ -2,3 +2,6 @@ streamlit
 openai
 PyPDF2 
 requests
+Office365-REST-Python-Client
+sharepoint-online-python
+unstructured
