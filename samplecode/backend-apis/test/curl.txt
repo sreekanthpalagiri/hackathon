@@ -1,0 +1,2 @@
+curl -X POST http://localhost:8000/api/ask -H "Content-Type: application/json" -d "{\"question\": \"Explain gravity like I'm five\"}"
+curl -X POST http://localhost:8000/api/ask -H "Content-Type: application/json" -d "{\"question\": \"Why do we experience a spark or hearing a crackle when we take off our synthetic clothes or sweater?\"}"
