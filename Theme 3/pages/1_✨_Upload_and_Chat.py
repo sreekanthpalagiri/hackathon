@@ -1,7 +1,7 @@
 import streamlit as st
 import anthropic
 
-st.title("📝 File Q&A with Anthropic")
+st.title("📝 Document Q&A")
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md"))
 question = st.text_input(
     "Ask something about the article",
