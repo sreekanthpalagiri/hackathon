@@ -1,0 +1,4 @@
+https://docs.cohere.com/v2/page/sql-agent-cohere-langchain?utm_source=google&utm_medium=cpc&utm_campaign=fy26_emea_1_awareness_paidsearch_22295552317_179377625927_737093627746&utm_term={querystring}&gad_source=1&gbraid=0AAAAA-uE0d-RykrIpcgSb2BgluV2486qn&gclid=Cj0KCQjw2tHABhCiARIsANZzDWqb5XBaPuTiQ-yMWwNGPr2ESngXhmAs4YhpUdoETr_Msr8TF7oyhV0aAgw7EALw_wcB
+
+https://python.langchain.com/v0.1/docs/use_cases/sql/agents/
+
