@@ -1,0 +1,6 @@
+crewai
+crewai-tools
+streamlit
+exa-py
+requests
+emoji

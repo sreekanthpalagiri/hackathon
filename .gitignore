@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+Hackathon-UI/.venv/
+Hackathon-Backend/.venv/
+Hackathon-Authorization/.venv/
