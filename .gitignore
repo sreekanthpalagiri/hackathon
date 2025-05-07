@@ -5,3 +5,5 @@ __pycache__/
 Hackathon-UI/.venv/
 Hackathon-Backend/.venv/
 Hackathon-Authorization/.venv/
+Hackathon-UI/.streamlit/
+Hackathon-UI/__pycache__/
