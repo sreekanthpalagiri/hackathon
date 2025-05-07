@@ -7,3 +7,5 @@ Hackathon-Backend/.venv/
 Hackathon-Authorization/.venv/
 Hackathon-UI/.streamlit/
 Hackathon-UI/__pycache__/
+*/build_output.txt
+*/digest.txt
