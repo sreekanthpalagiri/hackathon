@@ -5,3 +5,7 @@ requests
 Office365-REST-Python-Client
 sharepoint-online-python
 unstructured
+
+
+
+google-cloud-secret-manager
