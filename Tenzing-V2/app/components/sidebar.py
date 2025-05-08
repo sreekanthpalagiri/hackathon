@@ -11,7 +11,7 @@ def render_sidebar():
     """Render the sidebar 
     """
     with st.sidebar:
-        st.markdown(':man: Hi John,')
+        st.markdown(':man: Hi June,')
         st.markdown("Welcome!...... " \
         "We can help you with your query per information available with us as of today from Everest")
         
