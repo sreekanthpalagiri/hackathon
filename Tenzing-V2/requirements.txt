@@ -1,0 +1,6 @@
+fastapi[standard]
+google-adk
+uvicorn
+emoji
+streamlit
+websockets
