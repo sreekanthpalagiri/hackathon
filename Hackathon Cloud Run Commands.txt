@@ -27,3 +27,7 @@ UI
 gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/az-hackathon2025-tcs-458822/hackathon-repo/hackathon-ui:v1
 
 gcloud run deploy hackathon-ui --image=us-central1-docker.pkg.dev/az-hackathon2025-tcs-458822/hackathon-repo/hackathon-ui@sha256:c3303cbdfcac28543690d8b9744785d1a15ff05dcbbc6e90424cea9e473ec0fc --allow-unauthenticated --port=8080 --service-account=727170048524-compute@developer.gserviceaccount.com --timeout=1200 --cpu=4 --memory=8Gi --min-instances=1 --max-instances=1 --no-cpu-throttling --region=us-central1 --project=az-hackathon2025-tcs-458822
+
+
+
+gcloud run deploy hackathon-backend-new  --allow-unauthenticated --port=8080 --service-account=727170048524-compute@developer.gserviceaccount.com --timeout=1200 --cpu=4 --memory=8Gi --min-instances=1 --max-instances=1 --no-cpu-throttling --region=us-central1 --project=az-hackathon2025-tcs-458822

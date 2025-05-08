@@ -1,6 +1,7 @@
-crewai
-crewai-tools
+# crewai
+# crewai-tools
 streamlit
-exa-py
+# exa-py
 requests
 emoji
+websockets

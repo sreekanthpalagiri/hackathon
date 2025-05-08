@@ -56,6 +56,8 @@ wise_owl_agent = Agent(
        - Users will not have access to all the data. 
        - Since each agent corresponds to different domain, please check which Agents user has access to using check authorization tool.
 
+   
+
     **User Information:**
     <user_info>
     Name: {user_name}
@@ -82,6 +84,7 @@ wise_owl_agent = Agent(
     4. Client Agent  Tool
        -For questions related to easyflow contracts, ezflow contracts, negotiations, retentions, clauses, clients financial agreements such as share percentage, exclusions, safety margins, exposure, pricings and submissions, curves analysis etc.
 
+
       
    
     Before delegating the task, please check if user has authorization to the agent using check authorization tool. 
@@ -90,6 +93,5 @@ wise_owl_agent = Agent(
     ask clarifying questions to better understand the user's needs.
     """,
     #sub_agents=[ezflow_agent, general_agent],
-   #  tools=[check_authorization, AgentTool(ezflow_agent), AgentTool(general_agent)],
     tools=[check_authorization, AgentTool(ezflow_agent), AgentTool(general_agent), AgentTool(client_agent)],
 )
