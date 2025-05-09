@@ -8,16 +8,6 @@ def contract_fetcher(transaction_number: str) -> dict:
     a tool to query contract data for a Contract Number
     """
 
-    url = "https://login.microsoftonline.com/0002cd24-7dd6-4542-acd6-e0c7e184c80c/oauth2/v2.0/token"
-
-    payload = 'grant_type=client_credentials&client_id=d4116cc2-a282-466b-9fbc-e6e5a47051a5&client_secret=KM78Q~CupuuF48d0TGGSJ7abKO02zJuOJVAc8cqe&scope=api%3A%2F%2Fd7c4dfaf-2bd8-4f96-b977-e3560c26e435%2F.default'
-    headers = {
-    'Content-Type': 'application/x-www-form-urlencoded',
-    'Cookie': 'fpc=Arys8N2G8VpAspZ7OeQcSVgPMvstAQAAAG7prd8OAAAAQvmyKwEAAAAv7K3fDgAAAA; stsservicecookie=estsfd; x-ms-gateway-slice=estsfd'
-    }
-
-    response = requests.request("POST", url, headers=headers, data=payload)
-
     token = response.json()['access_token']
 
     print(token)
